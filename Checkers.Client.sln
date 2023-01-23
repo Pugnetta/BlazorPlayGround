@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkers", "Checkers\Checkers.csproj", "{CE6979D1-0FD2-4B7F-933C-99D9E30595F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampoMinatoClassLibrary", "CampoMinatoClassLibrary\CampoMinatoClassLibrary.csproj", "{FC2855FB-35B0-4A93-95D4-C4DA12AB6456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6979D1-0FD2-4B7F-933C-99D9E30595F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6979D1-0FD2-4B7F-933C-99D9E30595F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6979D1-0FD2-4B7F-933C-99D9E30595F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6979D1-0FD2-4B7F-933C-99D9E30595F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2855FB-35B0-4A93-95D4-C4DA12AB6456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2855FB-35B0-4A93-95D4-C4DA12AB6456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2855FB-35B0-4A93-95D4-C4DA12AB6456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2855FB-35B0-4A93-95D4-C4DA12AB6456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC1C29D2-5C5F-4552-87E8-5FD72F3F5FF1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿
+<button type="button" class="game-tile" @onclick="OnButtonClickAsync">
+    @if (Cell.IsRevealed) 
+    {
+        @Cell.State;
+    }
+    else if (Cell.IsFlagged)
+    {
+        <i class="oi oi-check"></i>
+    }
+    else
+    {
+        @test;
+    }
+</button>
+
+
+@code {
+    string test = "?";
+    [Parameter]
+    public Tile Cell { get; set; }
+
+    [Parameter]
+    public EventCallback<Tile> OnTileClicked { get; set; }
+
+    private async Task OnButtonClickAsync() => await OnTileClicked.InvokeAsync(Cell);
+
+   
+}

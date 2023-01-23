@@ -1,0 +1,22 @@
+﻿.container {
+    display: grid;
+    background-color: blueviolet;
+    grid-template-areas:
+        "head"
+        "game";
+}
+
+.head {
+    grid-area: head;
+}
+
+.game {
+    grid-area: game;
+}
+
+.game-content {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    
+}
